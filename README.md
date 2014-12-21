@@ -9,7 +9,7 @@ along side configuration for common tools and libraries.
 * `.gitignore` - ignored most build product and intermediate and editor files
 * `.clang-format`
 * [googlemock][gmock] with [googletest][gtest] for testing
-* [premake5][https://bitbucket.org/premake/premake-dev/overview] based project
+* [premake5](https://bitbucket.org/premake/premake-dev/overview) based project
   generation
 
 [gmock]: http://code.google.com/p/googlemock/

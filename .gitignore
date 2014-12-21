@@ -1,0 +1,14 @@
+build
+*.swp
+
+*.o
+*.obj
+
+*.a
+*.so
+
+*.lib
+*.dll
+
+*.dylib
+

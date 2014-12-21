@@ -7,13 +7,13 @@ along side configuration for common tools and libraries.
 ## Features
 
 * `.gitignore` - ignored most build product and intermediate and editor files
+* `.clang-format`
 
 
 ## Todo
 
 Future version of scafall will provide the following tools and libraries:
 
-* .clang-format
 * premake5
 * googlemock
 * .editorconfig

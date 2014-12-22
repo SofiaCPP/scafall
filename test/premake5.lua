@@ -1,3 +1,5 @@
+local scafall = require('tools/premake/scafall')
+
 project 'test'
     kind 'ConsoleApp'
     language 'C++'
@@ -14,8 +16,8 @@ project 'test'
     }
     excludes 'gmock'
 
-    pchheader(path.getabsolute('precompiled.hxx'))
-    pchsource(path.getabsolute('precompiled.cxx'))
+    scafall.pchheader 'precompiled.hxx'
+    scafall.pchsource 'precompiled.cxx'
 
     links {
         'gmock_main',

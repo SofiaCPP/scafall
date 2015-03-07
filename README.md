@@ -18,6 +18,21 @@ along side configuration for common tools and libraries.
 [editorconfig]: http://editorconfig.org
 
 
+## Usage
+
+1. Clone the repository without history
+
+    git clone --depth 1 https://github.com/SofiaCPP/scafall.git
+
+2. Delete the `.git` folder
+3. Create a new repository
+
+    git init .
+
+4. Make a folder for your source, add a `premake5.lua` and include it in the
+   solution
+
+
 ## Todo
 
 Future version of scafall will provide the following tools and libraries:
